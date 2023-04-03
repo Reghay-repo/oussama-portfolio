@@ -15,6 +15,22 @@ interface IProject {
 
 const projects: IProject[] = [
   {
+    name: "Porfolio",
+    description:
+      "My personal Porfolio. I build it with Next js and Tailwind css ",
+    image: "/portfolio-website.png",
+    github: "https://github.com/Reghay-repo/oussama-portfolio",
+    link: "https://oussama-reghay-portfolio.netlify.app/",
+  },
+  {
+    name: "Petalens",
+    description:
+      "Petalens is a Media Monitoring and Social Listening tool, developed by using Vuejs and Vuetify as the core UI technologies and Laravel, PostgresQsl for the backend and deployed with Docker to the cloud.  ",
+    image: "/petalens.png",
+    github: "#",
+    link: "https://www.petalens.com/",
+  },
+  {
     name: "Easyom",
     description:
       "EasyOM's landing page showcases their various business services, including bookkeeping, tax preparation, payroll processing, and financial consulting. It features a clean and modern design, customer testimonials, and a satisfaction guarantee to build trust with potential customers. uses Express js for the backend",
@@ -37,22 +53,6 @@ const projects: IProject[] = [
     image: "/yourent.png",
     github: "https://github.com/Reghay-repo/you-rent",
     link: "#",
-  },
-  {
-    name: "Petalens",
-    description:
-      "Petalens is a Media Monitoring and Social Listening tool, developed by using Vuejs and Vuetify as the core UI technologies and Laravel, PostgresQsl for the backend and deployed with Docker to the cloud.  ",
-    image: "/petalens.png",
-    github: "#",
-    link: "https://www.petalens.com/",
-  },
-  {
-    name: "Porfolio",
-    description:
-      "My personal Porfolio. I build it with Next js and Tailwind css ",
-    image: "/portfolio-website.png",
-    github: "https://github.com/Reghay-repo/oussama-portfolio",
-    link: "https://oussama-reghay-portfolio.netlify.app/",
   },
 ];
 
