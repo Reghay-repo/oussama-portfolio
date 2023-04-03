@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import SlideUp from "./SlideUp";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import { Url } from "url";
 
 interface IProject {
   name: string;
   description: string;
   image: string;
-  github?: string | undefined;
-  link?: string | undefined;
+  github?: string;
+  link?: string;
 }
 
 const projects: IProject[] = [
@@ -45,6 +46,14 @@ const projects: IProject[] = [
     github: "#",
     link: "https://www.petalens.com/",
   },
+  {
+    name: "Porfolio",
+    description:
+      "My personal Porfolio. I build it with Next js and Tailwind css ",
+    image: "/portfolio-website.png",
+    github: "#",
+    link: "https://www.petalens.com/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -62,7 +71,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <a href={project.link}>
                       <Image
                         src={project.image}
                         alt=""
@@ -70,7 +79,7 @@ const ProjectsSection = () => {
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
                       />
-                    </Link>
+                    </a>
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
@@ -78,18 +87,18 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
+                      <a href={project.github} rel="noreferrer" target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
-                      <Link href={project.link} target="_blank">
+                      </a>
+                      <a href={project.link} rel="noreferrer" target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
