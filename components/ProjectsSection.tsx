@@ -51,8 +51,8 @@ const projects: IProject[] = [
     description:
       "My personal Porfolio. I build it with Next js and Tailwind css ",
     image: "/portfolio-website.png",
-    github: "#",
-    link: "https://www.petalens.com/",
+    github: "https://github.com/Reghay-repo/oussama-portfolio",
+    link: "https://642afba095a9894ad7479f59--guileless-sable-cf92ff.netlify.app/",
   },
 ];
 
