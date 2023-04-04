@@ -36,7 +36,7 @@ const projects: IProject[] = [
       "EasyOM's landing page showcases their various business services, including bookkeeping, tax preparation, payroll processing, and financial consulting. It features a clean and modern design, customer testimonials, and a satisfaction guarantee to build trust with potential customers. uses Express js for the backend",
     image: "/easyom.png",
     github: "https://github.com/Reghay-repo/easy-home",
-    link: "#",
+    link: "https://easyom.up.railway.app/",
   },
   {
     name: "DevBootcamp",
