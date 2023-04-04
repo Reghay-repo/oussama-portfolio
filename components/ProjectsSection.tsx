@@ -33,7 +33,7 @@ const projects: IProject[] = [
   {
     name: "Stock trading vue app",
     description:
-      "My first app build with Vue js that simulates trading with stocks",
+      "My first app built with Vue js that simulates trading with stocks",
     image: "/stock.png",
     github: "https://github.com/Reghay-repo/stock-trader-vuejs",
     link: "https://stock-trading-vue-app.netlify.app/",
