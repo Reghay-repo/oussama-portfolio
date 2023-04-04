@@ -31,6 +31,14 @@ const projects: IProject[] = [
     link: "https://www.petalens.com/",
   },
   {
+    name: "Stock trading vue app",
+    description:
+      "My first app build with Vue js that simulates trading with stocks",
+    image: "/stock.png",
+    github: "https://github.com/Reghay-repo/stock-trader-vuejs",
+    link: "https://stock-trading-vue-app.netlify.app/",
+  },
+  {
     name: "Easyom",
     description:
       "EasyOM's landing page showcases their various business services, including bookkeeping, tax preparation, payroll processing, and financial consulting. It features a clean and modern design, customer testimonials, and a satisfaction guarantee to build trust with potential customers. uses Express js for the backend",
