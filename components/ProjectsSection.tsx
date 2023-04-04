@@ -25,7 +25,7 @@ const projects: IProject[] = [
   {
     name: "Petalens",
     description:
-      "Petalens is a Media Monitoring and Social Listening tool, developed by using Vuejs and Vuetify as the core UI technologies and Laravel, PostgresQsl for the backend and deployed with Docker to the cloud.  ",
+      "Petalens is a Media Monitoring and Social Listening tool, developed by using Vuejs and Vuetify as the core UI technologies and Laravel, PostgresSql for the backend and deployed with Docker to the cloud.  ",
     image: "/petalens.png",
     github: "#",
     link: "https://www.petalens.com/",
@@ -53,6 +53,20 @@ const projects: IProject[] = [
     image: "/yourent.png",
     github: "https://github.com/Reghay-repo/you-rent",
     link: "#",
+  },
+  {
+    name: "Meuseum candy",
+    description: "A simple web page made with HTMl and CSS",
+    image: "/candy.png",
+    github: "https://github.com/Reghay-repo/meuseum-candy",
+    link: "https://meuseum-candy.netlify.app/",
+  },
+  {
+    name: "Startup website",
+    description: "A simple web page for a Startup with HTMl and CSS",
+    image: "/startup.png",
+    github: "https://github.com/Reghay-repo/startup-website",
+    link: "https://startup-website-re.netlify.app/",
   },
 ];
 
