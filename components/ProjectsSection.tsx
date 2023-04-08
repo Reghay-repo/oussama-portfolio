@@ -23,6 +23,14 @@ const projects: IProject[] = [
     link: "https://oussama-reghay-portfolio.netlify.app/",
   },
   {
+    name: "Dashboard Home page",
+    description:
+      "Home page dashboard made with Nuxt and primevue inspired from a figma design. ",
+    image: "/portfolio-website.png",
+    github: "https://github.com/Reghay-repo/dashboard-from-figma-primevue",
+    link: "https://dashboard-figma-primevue.netlify.app/",
+  },
+  {
     name: "Petalens",
     description:
       "Petalens is a Media Monitoring and Social Listening tool, developed by using Vuejs and Vuetify as the core UI technologies and Laravel, PostgresSql for the backend and deployed with Docker to the cloud.  ",
