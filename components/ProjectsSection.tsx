@@ -26,7 +26,7 @@ const projects: IProject[] = [
     name: "Dashboard Home page",
     description:
       "Home page dashboard made with Nuxt and primevue inspired from a figma design. ",
-    image: "/portfolio-website.png",
+    image: "/dash.png",
     github: "https://github.com/Reghay-repo/dashboard-from-figma-primevue",
     link: "https://dashboard-figma-primevue.netlify.app/",
   },
